@@ -1,0 +1,94 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container */
+div {
+  text-align: center;
+}
+
+/* Card style for sections */
+h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+/* Box */
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center; /* center text */
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 5px #667eea;
+}
+
+/* Buttons */
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+/* Navigation buttons */
+button:nth-child(-n+4) {
+  background: #444;
+}
+
+button:nth-child(-n+4):hover {
+  background: #222;
+}
+
+/* Profile image */
+img {
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 3px solid #667eea;
+}
+
+/* Text */
+p {
+  margin: 5px 0;
+}
